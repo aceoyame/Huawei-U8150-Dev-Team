@@ -1,0 +1,136 @@
+ro.build.version.incremental=eng.huawei.20110111.171554
+ro.build.date=Tue Jan 11 17:35:05 CST 2011
+ro.build.date.utc=1294738505
+ro.build.display.id=Stock Clean v10 OC
+ro.confg.hw_appsbootversion=U8150V100R001C253B836_APPSBOOT
+ro.confg.hw_appversion=U8150V100R001C253B836_KERNEL
+ro.confg.hw_appfsversion=U8150V100R001C253B836_SYSIMG
+ro.build.fingerprint=Huawei/Ideos/msm7225/U8150:2.2.1/FRG83/eng.huawei.20110111.171554:user/release-keys
+ro.build.description=Ideos-user 2.2.1 FRG83 eng.huawei.20110111.171554 release-keys
+# begin build properties
+ro.build.id=FRG83
+ro.build.tags=release-keys
+ro.build.version.sdk=8
+ro.build.version.codename=REL
+ro.build.version.release=2.2.1
+ro.build.type=user
+ro.build.user=huawei
+ro.build.host=product.hwandroid.com
+ro.product.model=Android
+ro.product.brand=Huawei
+#DTS2010092603003 xiongwei 20100927 begin
+#DTS2010102703416 fancongcong 20101027 begin
+ro.product.name=Ideos
+ro.product.device=msm7225
+ro.product.board=U8150
+ro.product.cpu.abi=armeabi
+ro.product.manufacturer=HUAWEI
+ro.product.locale.language=en
+ro.product.locale.region=US
+ro.wifi.channels=
+ro.board.platform=msm7k
+ro.build.product=msm7225
+# DTS2010102703416 fancongcong 20101027 end
+#DTS2010092603003 xiongwei 20100927 end
+# Do not try to parse ro.build.description or .fingerprint
+wifi.interface=eth0
+# end build properties
+#
+# system.prop for U8150/C8150
+#
+
+rild.libpath=/system/lib/libril-qc-1.so
+rild.libargs=-d /dev/smd0
+DEVICE_PROVISIONED=1
+ro.config.hw_addsettingsdbex=1
+ro.config.hw_gcf_mms=true
+ro.config.wifi_chip_is_bcm=true
+ro.sf.lcd_density=120
+ro.config.hwft_PNN_function=true
+persist.cust.tel.adapt=1
+persist.cust.tel.eons=1
+ro.config.hwfeature_gps_test=0
+ro.config.hwfeature_ecc=true
+keyguard.no_require_sim=true
+ro.config.lowbattery_shutdown=1
+ro.config.hwfeature_wakeupkey=1
+ro.config.endkeybehavior=true
+ro.config.hw_menu_unlockscreen=false
+ro.config.KeyPassToUser=true
+ro.media.enc.lprof.duration=30
+ro.config.PicMaxSize=3mp
+#<DTS2010070501753 rongchengzhuang 20100710 begin
+ro.config.hw_clocksetting=0
+#DTS2010070501753 rongchengzhuang 20100710 end>
+#set network mode CDMA-->4 WCDMA-->0
+ro.telephony.default_network=0
+ro.cdma.home.operator.numeric=
+
+
+# huawei add prop
+
+#DTS2010082701201 liyou 20100827 begin
+ro.config.hwft_MatchNum=7
+#ro.config.hwft_MatchNumShort=7
+#DTS2010082701201 liyou 20100827 end
+ro.product.factoryversion=0
+# 0:nothing; 1:go home; 2:go sleep; 3:go home and then sleep.
+ro.config.hw_defaultEndBtnFunc=3
+ro.config.hwft_PinPukUnlockscr=true
+# DTS2010092802961 fangwei 20100927 delete
+ro.config.hw_opta=
+ro.config.hw_optb=
+ro.config.hw_temperature_warn=true
+ro.config.hw_ignore270=true
+# DTS2010082001008 by liuxiangning 2010.08.20 add ro.config.hw_uaprof
+ro.config.hw_uaprof=http://wap1.huawei.com/uaprof/HuaweiU8150v100WCDMA.xml
+# DTS2010073100642 zhouxin 2010/0804 begin
+#ro.config.hw_timeformat=false
+#ro.config.timeformat=24
+#ro.config.hw_dateformat=false
+#ro.config.dateformat=dd-MM-yyyy
+# DTS2010073100642 zhouxin 2010/0804 end
+# DTS2010072300145 zhouxin 2010/0727 end
+# DTS2010073101355 wangqing 20100806 begin
+# normal:true; do not display spn:false. 
+ro.config.hw_spn_custom = true
+# DTS2010073101355 wangqing 20100806 end
+# DTS2010101000085 xubaoshun 20101008 begin
+# 0:Unknown; 1:Turkish; 2:Spanish; 3:Portuguese.
+ro.config.smsCoding_National=0
+# DTS2010101000085 xubaoshun 20101008 end
+ro.config.hw_gl=1
+ro.check.enos.on = true
+
+#
+# ADDITIONAL_BUILD_PROPERTIES
+#
+ro.config.ringtone=Ring_Synth_04.ogg
+ro.config.notification_sound=Tinkerbell.ogg
+ro.config.alarm_alert=Alarm_Classic.ogg
+media.stagefright.enable-player=true
+media.stagefright.enable-meta=true
+media.stagefright.enable-scan=true
+media.stagefright.enable-http=true
+net.bt.name=Android
+dalvik.vm.stack-trace-file=/data/anr/traces.txt
+#BU5D02434 liyou 104360 20100204 begin
+ro.config.hwft_SimLock=true
+#BU5D02434 liyou 104360 20100204 end
+ro.com.android.dataroaming=false
+#DTS2010091300236 wKF31275 20100914 begin
+ro.telephony.call_ring.multiple=false
+#DTS2010091300236 wKF31275 20100914 end
+# DTS2010092802961 fangwei 20100927 begin
+ro.com.google.clientidbase=android-huawei
+ro.com.google.clientidbase.yt=android-huawei
+ro.com.google.clientidbase.am=android-huawei
+ro.com.google.clientidbase.gmm=android-huawei
+ro.com.google.clientidbase.vs=android-huawei
+ro.com.google.clientidbase.ms=android-huawei
+# DTS2010092802961 fangwei 20100927 end
+# DTS2010110500866 shenhuazhao 20101105 begin
+ro.opengles.version=65537
+dalvik.vm.execution-mode=int:jit
+# DTS2010110500866 shenhuazhao 20101105 end
+
