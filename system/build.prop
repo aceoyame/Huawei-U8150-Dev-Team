@@ -1,0 +1,71 @@
+ro.build.id=FRG83
+ro.build.display.id=GRH78C
+ro.build.version.incremental=eng.arco.20110122.163931
+ro.build.version.sdk=9
+ro.build.version.codename=REL
+ro.build.version.release=2.3.2
+ro.build.date=Sat Jan 22 16:39:43 CET 2011
+ro.build.date.utc=0
+ro.build.type=user
+ro.build.user=huawei
+ro.build.host=product.hwandroid.com
+ro.product.model=Ideos
+ro.product.brand=Huawei
+ro.product.name=U8150
+ro.product.device=U8150
+ro.product.board=U8150
+ro.product.cpu.abi=armeabi
+ro.product.manufacturer=HUAWEI
+ro.product.locale.language=en
+ro.product.locale.region=US
+ro.wifi.channels=
+ro.board.platform=msm7k
+# ro.build.product is obsolete; use ro.product.device
+ro.build.product=U8150
+# Do not try to parse ro.build.description or .fingerprint
+ro.build.description=passion-user 2.2.1 FRG83 60505 release-keys
+ro.build.fingerprint=google/passion/passion/mahimahi:2.2.1/FRG83/60505:user/release-keys
+# end build properties
+
+#
+# ADDITIONAL_BUILD_PROPERTIES
+#
+ro.media.dec.jpeg.memcap=10000000
+rild.libpath=/system/lib/libril-qc-1.so
+wifi.interface=eth0
+wifi.supplicant_scan_interval=45
+ro.tether.denied=true
+ro.sf.lcd_density=120
+view.fading_edge_length=8
+view.touch_slop=15
+view.minimum_fling_velocity=25
+view.scroll_friction=0.008
+ro.telephony.default_network=0
+ro.com.google.locationfeatures=1
+debug.sf.hw=1
+ro.opengles.version=65537
+persist.sys.use_dithering=0
+sys.checkfs.fat=false
+ro.config.notification_sound=tweeters.ogg
+ro.config.alarm_alert=Alarm_Classic.ogg
+dalvik.vm.execution-mode=int:jit
+dalvik.vm.heapsize=32m
+ro.compcache.default=18
+keyguard.no_require_sim=true
+ro.com.android.dateformat=MM-dd-yyyy
+ro.com.android.dataroaming=false
+ro.config.notification_sound=OnTheHunt.ogg
+ro.config.alarm_alert=Alarm_Classic.ogg
+ro.rommanager.developerid=cyanogenmod
+ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html
+ro.url.legal.android_privacy=http://www.google.com/intl/%s/mobile/android/basic/privacy.html
+ro.com.google.clientidbase=android-google
+ro.com.android.wifi-watchlist=GoogleGuest
+ro.setupwizard.enterprise_mode=1
+ro.com.android.dateformat=MM-dd-yyyy
+ro.com.android.dataroaming=false
+ro.config.ringtone=DonMessWivIt.ogg
+ro.modversion=cyanbread
+ro.setupwizard.mode=OPTIONAL
+net.bt.name=Android
+dalvik.vm.stack-trace-file=/data/anr/traces.txt
