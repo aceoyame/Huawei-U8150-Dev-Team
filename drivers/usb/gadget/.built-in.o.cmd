@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/built-in.o :=  /home/lalit/CodeSourcery/Sourcery_G++_Lite/bin/arm-none-eabi-ld -EL    -r -o drivers/usb/gadget/built-in.o drivers/usb/gadget/msm72k_udc.o drivers/usb/gadget/g_android.o 

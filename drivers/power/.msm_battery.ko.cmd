@@ -1,0 +1,1 @@
+cmd_drivers/power/msm_battery.ko := /home/lalit/CodeSourcery/Sourcery_G++_Lite/bin/arm-none-eabi-ld -EL -r  -T /home/lalit/Downloads/kernel-2.6.32-U8150-Froyo/scripts/module-common.lds --build-id -o drivers/power/msm_battery.ko drivers/power/msm_battery.o drivers/power/msm_battery.mod.o

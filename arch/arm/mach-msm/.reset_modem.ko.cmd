@@ -1,0 +1,1 @@
+cmd_arch/arm/mach-msm/reset_modem.ko := /home/lalit/CodeSourcery/Sourcery_G++_Lite/bin/arm-none-eabi-ld -EL -r  -T /home/lalit/Downloads/kernel-2.6.32-U8150-Froyo/scripts/module-common.lds --build-id -o arch/arm/mach-msm/reset_modem.ko arch/arm/mach-msm/reset_modem.o arch/arm/mach-msm/reset_modem.mod.o

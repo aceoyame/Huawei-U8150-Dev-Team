@@ -1,0 +1,1 @@
+cmd_drivers/input/mouse/built-in.o :=  /home/lalit/CodeSourcery/Sourcery_G++_Lite/bin/arm-none-eabi-ld -EL    -r -o drivers/input/mouse/built-in.o drivers/input/mouse/psmouse.o drivers/input/mouse/ofn_avago_a320.o 

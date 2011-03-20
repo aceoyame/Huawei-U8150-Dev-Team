@@ -1,0 +1,1 @@
+cmd_arch/arm/oprofile/oprofile.ko := /home/lalit/CodeSourcery/Sourcery_G++_Lite/bin/arm-none-eabi-ld -EL -r  -T /home/lalit/Downloads/kernel-2.6.32-U8150-Froyo/scripts/module-common.lds --build-id -o arch/arm/oprofile/oprofile.ko arch/arm/oprofile/oprofile.o arch/arm/oprofile/oprofile.mod.o

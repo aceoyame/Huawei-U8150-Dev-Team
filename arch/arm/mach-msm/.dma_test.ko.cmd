@@ -1,0 +1,1 @@
+cmd_arch/arm/mach-msm/dma_test.ko := /home/lalit/CodeSourcery/Sourcery_G++_Lite/bin/arm-none-eabi-ld -EL -r  -T /home/lalit/Downloads/kernel-2.6.32-U8150-Froyo/scripts/module-common.lds --build-id -o arch/arm/mach-msm/dma_test.ko arch/arm/mach-msm/dma_test.o arch/arm/mach-msm/dma_test.mod.o

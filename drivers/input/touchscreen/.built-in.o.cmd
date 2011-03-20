@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/built-in.o :=  /home/lalit/CodeSourcery/Sourcery_G++_Lite/bin/arm-none-eabi-ld -EL    -r -o drivers/input/touchscreen/built-in.o drivers/input/touchscreen/msm_touch.o drivers/input/touchscreen/synaptics_i2c_rmi_tm.o drivers/input/touchscreen/melfas_i2c_ts.o drivers/input/touchscreen/cypress_i2c_ts.o 

@@ -1,0 +1,1 @@
+cmd_drivers/misc/pmem_kernel_test.ko := /home/lalit/CodeSourcery/Sourcery_G++_Lite/bin/arm-none-eabi-ld -EL -r  -T /home/lalit/Downloads/kernel-2.6.32-U8150-Froyo/scripts/module-common.lds --build-id -o drivers/misc/pmem_kernel_test.ko drivers/misc/pmem_kernel_test.o drivers/misc/pmem_kernel_test.mod.o

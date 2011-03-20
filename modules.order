@@ -1,0 +1,13 @@
+kernel/arch/arm/mach-msm/reset_modem.ko
+kernel/arch/arm/mach-msm/dma_test.ko
+kernel/drivers/misc/pmem_kernel_test.ko
+kernel/drivers/mtd/tests/mtd_oobtest.ko
+kernel/drivers/mtd/tests/mtd_pagetest.ko
+kernel/drivers/mtd/tests/mtd_readtest.ko
+kernel/drivers/mtd/tests/mtd_speedtest.ko
+kernel/drivers/mtd/tests/mtd_stresstest.ko
+kernel/drivers/mtd/tests/mtd_subpagetest.ko
+kernel/drivers/mtd/tests/mtd_torturetest.ko
+kernel/drivers/input/evbug.ko
+kernel/drivers/power/msm_battery.ko
+kernel/arch/arm/oprofile/oprofile.ko

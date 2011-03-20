@@ -1,0 +1,1 @@
+cmd_drivers/mtd/tests/mtd_readtest.ko := /home/lalit/CodeSourcery/Sourcery_G++_Lite/bin/arm-none-eabi-ld -EL -r  -T /home/lalit/Downloads/kernel-2.6.32-U8150-Froyo/scripts/module-common.lds --build-id -o drivers/mtd/tests/mtd_readtest.ko drivers/mtd/tests/mtd_readtest.o drivers/mtd/tests/mtd_readtest.mod.o

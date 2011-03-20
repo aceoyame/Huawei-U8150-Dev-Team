@@ -1,0 +1,1 @@
+cmd_drivers/i2c/chips/built-in.o :=  /home/lalit/CodeSourcery/Sourcery_G++_Lite/bin/arm-none-eabi-ld -EL    -r -o drivers/i2c/chips/built-in.o drivers/i2c/chips/akm8973.o drivers/i2c/chips/adp5587.o drivers/i2c/chips/st303_compass.o drivers/i2c/chips/st303_gs.o 
