@@ -1,7 +1,7 @@
 ro.build.version.incremental=eng.huawei.20110111.171554
 ro.build.date=Tue Jan 11 17:35:05 CST 2011
 ro.build.date.utc=1294738505
-ro.build.display.id=Stock Clean v10 OC
+ro.build.display.id=Dev Team's Froyoman
 ro.confg.hw_appsbootversion=U8150V100R001C253B836_APPSBOOT
 ro.confg.hw_appversion=U8150V100R001C253B836_KERNEL
 ro.confg.hw_appfsversion=U8150V100R001C253B836_SYSIMG
